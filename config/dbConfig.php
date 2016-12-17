@@ -1,5 +1,5 @@
 <?php
-
+/*-----------This is global connection string for MySQL-------------------------*/
 $link = mysqli_connect("neemaiqbal", "root", "godhand786") or die(mysqli_error());
 mysqli_select_db($link,"crm") or die(mysqli_error());
 
